@@ -2,7 +2,7 @@
 title: Webpage Querier
 emoji: 🔍
 colorFrom: blue
-colorTo: teal
+colorTo: yellow
 sdk: streamlit
 sdk_version: 1.33.0
 app_file: app.py
