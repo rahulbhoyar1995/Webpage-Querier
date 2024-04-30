@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from llama_index.core import VectorStoreIndex, download_loader, ServiceContext
+from llama_index.core import VectorStoreIndex,SimpleDirectoryReader,ServiceContext,download_loader
 from llama_index.embeddings import HuggingFaceEmbedding
 from llama_index.llms import Gemini, HuggingFaceInferenceAPI, OpenAI
 
